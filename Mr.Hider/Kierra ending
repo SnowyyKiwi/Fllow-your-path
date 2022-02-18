@@ -1,0 +1,181 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Pathway : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        //Intro
+
+        Debug.Log("You have been a very bad kid in school..");
+        Debug.Log("Now you have to go to school at night with all the other kids");
+        Debug.Log("A girl walks up to you with a mysterious symbol on her hand and ask what are you in here for?");
+        Debug.Log("Before you get to say anything Mr.Hider your teacher ask you to stop talking then when you look at your left the girl disappears");
+        Debug.Log("As it gets closer to 10 pm you see Mr.Hider acting weird and falls behind his desk!");
+        Debug.Log("A few kids go to check up on Mr.Hider...");
+        Debug.Log("As the kids ask Mr.Hider what's wrong he starts shifting into a werewolf the beast of night.");
+        Debug.Log("As he stands up with a fierce look the kids start screaming and he starts the killing!");
+        Debug.Log("What do you do? Press R to run with the other kids. Press D to duck behind the desk.");
+        
+        
+
+
+
+
+
+
+
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //Choice 1
+        //option 1
+        if (Input.GetKeyDown("r"))
+        {
+            Debug.Log("***********************************************************************************");
+            Debug.Log("You see the other kids running and decide to join them.");
+            Debug.Log("As you get in the bunch and start running down the hallway you hear Mr.Hider The Beast getting closer.");
+            Debug.Log("As you hear kids voices getting closer and dying you know you can't outrun The Beast");
+            Debug.Log("......You have just got slain and slowly died");
+            Debug.Log("Game Over!");
+
+        }
+
+        
+
+
+        //Choice 2 
+        //option 1
+        if (Input.GetKeyDown("d"))
+        {
+            Debug.Log("****************************************************************************************");
+            Debug.Log("You quickly duck behind the desk out of Mr.Hiders sight!");
+            Debug.Log("You see the other kids running and watch Mr. Hider The Beast run towards them.");
+            Debug.Log("After The Beast leaves the room you slowly creep to the door.");
+            Debug.Log("When you get to the door you see The Beast is slaughtering the kids one by one.");
+            Debug.Log("What do you do? Press O to go the opposite direction The Beast is going, or Press S to stay and go down the same hallway The Beast is going.");
+
+        }
+        //Choice 2
+        //option 2
+        if (Input.GetKeyDown("o"))
+        {
+            Debug.Log("*******************************************************************************************");
+            Debug.Log("You see Mr.Hider go left and decide to go the opposite way.");
+            Debug.Log("As you go down the hallway you remember that there is a door down a level.");
+            Debug.Log("You know that it might be locked and if it is it will start a loud noise that will surely attract Mr.Hider to you");
+            Debug.Log("As you get down there what do you do? Press E to try to escape, or Press C to count you out.");
+        }
+
+
+
+
+        //Choice 2 
+        //option 3
+        if (Input.GetKeyDown("s"))
+        {
+            Debug.Log("*******************************************************************************************************");
+            Debug.Log("You see Mr.Hider go to the left and decide to go the same way quietly.");
+            Debug.Log("As you go down the hallway Mr.Hider is getting down to the last person! You see lockers to your right.");
+            Debug.Log("You see he gets to the last kid and stops in a hallway that has a left and right but he just stays in the middle");
+            Debug.Log("What do you do? Press P to stay still and don't make a noise, or L to open a locker and hide in it but risk him hearing the locker door opening and coming for you.");
+
+
+
+        }
+
+        if (Input.GetKeyDown("e"))
+        {
+            Debug.Log("***************************************************************************");
+            Debug.Log("You try to pull the door but as you thought before it is locked!");
+            Debug.Log("You hear the alarm right next to you and you hear Mr. Hider coming above you.");
+            Debug.Log("You try to run but you hear The Werewolf getting closer and he catches up and kills you..");
+            Debug.Log("Game Over, Don't do the same thing again :3");
+       
+        }
+        if (Input.GetKeyDown("c"))
+        {
+            Debug.Log("********************************************************************************************");
+            Debug.Log("You figure out it is pointless to try to open the door because you might get killed.");
+            Debug.Log("You decide to be safer than sorry and start walking down the hallway.");
+            Debug.Log("You hear Mr. Hiders footsteps above going to the left and hear someone screaming.");
+            Debug.Log("You hear chanting in a classroom to the left and as you get closer you have to decide.");
+            Debug.Log("Press G to go in and see who it is, or K to keep walking to make it to the front door which is pretty far away?");
+
+
+        }
+
+        if (Input.GetKeyDown("l"))
+        {
+            Debug.Log("****************************************************************************");
+            Debug.Log("You decide to go into the locker and as you expected it made a loud creaking noise.");
+            Debug.Log("Mr.Hider turns around and starts clawing open the lockers one by one.");
+            Debug.Log("He eventurally finds the one you are in and rips off the door and slaughters you!");
+            Debug.Log("Game Over, Why would you do that?");
+
+        }
+        if (Input.GetKeyDown("p"))
+        {
+            Debug.Log("*******************************************************************************");
+            Debug.Log("You decide to stay still, but you see The Werewolf slowly turning his head back towards you.");
+            Debug.Log("Before he turns it all the way to see you, he hears this girl screaming to left looking at him and chases her down!");
+            Debug.Log("You decide to go back to Mr. Hiders classroom and then you get jumpscared by your friend Kierra!");
+            Debug.Log("What do you do? Press M to stick together and find a way out or Press Q to leave her behind and stay solo.");
+
+        }
+
+        if (Input.GetKeyDown("m"))
+        {
+            Debug.Log("*******************************************************************************");
+            Debug.Log("You decide to stick with Kierra, but before you two go out you test the window and it isn't breakable by anything.");
+            Debug.Log("You check around to grab a weapon to protect you and her.");
+            Debug.Log("But as you were testing the window it made a loud bang noise that Mr.Hider heard and as you look at the doorway you see The Werewolf staring at the both of you!");
+            Debug.Log("He comes at you and Kierra but she throws this hot water she has been preparing which leaves Mr. Hider Howling and as he does that you stab him with a broken beaker you guys prepared!");
+            Debug.Log("After this you both run out of the school at the front doors and run free.");
+            Debug.Log("..A few years into the future you and Kierra have started a family....");
+            Debug.Log("You have beaten the game the Good Way!");
+        }
+
+        if (Input.GetKeyDown("q"))
+        {
+            Debug.Log("*****************************************************************");
+            Debug.Log("You decide to go solo and leave Kierra behind.");
+            Debug.Log("You go out but then you see the black figure down the hallway!");
+            Debug.Log("The lights in the hallway start flashing and you see the fierce and frightful eyes, its razor sharp teeth with blood covered all over..");
+            Debug.Log("It starts running towards you and Kierra comes out and stabs it with a scapel.. But that wasn't enough and The Beast kills both of you!");
+            Debug.Log("Game Over, Maybe it's best to stick together right?");
+
+        }
+
+        if (Input.GetKeyDown("g"))
+        {
+            Debug.Log("*********************************************************************************");
+            Debug.Log("You decide to go inside and the door makes a loud creaking noise!");
+            Debug.Log("Mr.Hider heard the door and is know trying to find out where you are.");
+            Debug.Log("You see this girl and recognize her by the symbol on her arm and she is doing some sort of witchcraft");
+            Debug.Log("She says it is almost ready and tells you to open the door and let the beast inside.");
+            Debug.Log("You let the beast inside and see that Mr.Hider froze and she is saying a chant that is making him turn back to normal!");
+            Debug.Log("Once Mr.Hider gets up he asks what am I doing here and you all laugh");
+            Debug.Log("You have beat the game the funny way!");
+
+        }
+
+        if(Input.GetKeyDown("k"))
+        {
+            Debug.Log("*************************************************************************");
+            Debug.Log("You decide to walk foward and when you get to a hallway you wait a second...");
+            Debug.Log("Before you start walking to the exit you check your left and see that no one is there");
+            Debug.Log("You check your right and you get jumpscared by Mr.Hider and die!");
+            Debug.Log("Game Over, just go through the damn door");
+
+
+        }
+
+
+    }
+}
